@@ -102,10 +102,14 @@ strong, em {
     font-family: 'Pacifico', cursive;
 
 }
+main > div {
+    margin: 2rem 0;
+}
 main li {
     list-style-position: inside;
     font-size: 2vw;
-    font-family: 'Pacifico', cursive;
+    text-transform: capitalize;
+    font-family: 'Barlow Condensed', sans-serif;
 }
 main .extra-info {
     margin: 1vw 0;
@@ -124,6 +128,7 @@ main .extra-info {
     padding: .2vw;
     border-radius: .5vw;
     transition: .5s;
+    font-family: unset
 }
 .links li:hover a {
     background-color: rgba(2, 83, 83, 0.521);
@@ -135,6 +140,7 @@ main .extra-info {
     font-size: 2vw;
     text-transform: capitalize;
     display: block;
+    font-family: 'Barlow Condensed', sans-serif;
 }
 main table {
     width: 80%;
@@ -159,6 +165,7 @@ main td {
 }
 main form {
     font-size: 2vw;
+    font-family: 'Barlow Condensed', sans-serif;
 }
 form input {
     font-size: 2vw;
