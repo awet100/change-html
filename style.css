@@ -7,114 +7,115 @@ header {
     width: 100%;
     display: flex;
     justify-content: space-between;
-    padding: 1rem 5rem;
+    padding: 1vw 5vw;
     background-color: rgb(18, 43, 43);
     color: white;
-    font-size: 2rem;
+    font-size: 3vw;
     text-transform: capitalize;
 }
 section {
     width: 90%;
     display: flex;
-    height: fit-content;
     justify-content: space-between;
-    margin: 2rem auto;
-    padding: 2rem;
+    margin: 2vw auto;
+    padding: 2vw;
     background: lightblue;
-    border-radius: 2rem 0;
+    border-radius: 2vw 0;
 }
 .left {
     width: 70%;
-    height: fit-content;
 }
 .left h2 {
     text-transform: uppercase;
-    font-size: 3rem;
-    position: relative;
-    top: 20vh;
-    left: 5rem;
+    font-size: 5vw;
+    margin: 10vw;
     color: green;
 }
 .right {
     width: 30%;
-    height: fit-content;
 }
 .right img {
     width: 100%;
     height: auto;
-    border-radius: 1rem;
+    border-radius: 1vw;
 }
 main {
     width: 90%;
     height: fit-content;
-    margin: 2rem auto;
-    padding: 2rem;
+    margin: 2vw auto;
+    padding: 2vw;
     background: lightblue;
-    border-radius: 2rem 0;
+    border-radius: 2vw 0;
 }
 main h2 {
-    font-size: 2rem;
+    font-size: 2vw;
     color: white;
     text-transform: uppercase;
-    margin: 1rem 0;
+    margin: 1vw 0;
 }
 main h3 {
-    font-size: 2rem;
+    font-size: 2vw;
     color: green;
     text-transform: capitalize;
-    margin: .5rem 0;
+    margin: .5vw 0;
 }
 p {
-    font-size: 1.3rem;
+    font-size: 2vw;
+}
+strong, em {
+    font-size: 2vw;
 }
 main li {
     list-style-position: inside;
-    font-size: 1.3rem;
+    font-size: 2vw;
 }
 main .extra-info {
-    margin: 1rem 0;
+    margin: 1vw 0;
 }
 .links {
     display: flex;
     justify-content: space-around;
     width: 100%;
     text-align: center;
-    margin-top: 2rem;
+    margin-top: 2vw;
 }
 .links li {
     display: block;
     width: 20%;
     background-color: teal;
-    padding: .2rem;
-    border-radius: .5rem;
+    padding: .2vw;
+    border-radius: .5vw;
 }
 .links a {
     text-decoration: none;
     color: white;
-    font-size: 1.3rem;
+    font-size: 2vw;
     text-transform: capitalize;
     display: block;
 }
 main table {
     width: 80%;
-    margin: 1rem 0;
+    margin: 1vw 0;
 }
 main tr {
     width: 30%;
-    font-size: 1.3rem;
+    font-size: 2vw;
 }
 main th {
     text-align: center;
     background-color: wheat;
-    padding: .5rem;
+    padding: .5vw;
 }
 main td {
     text-align: center;
     background-color: white;
-    padding: .5rem;
+    padding: .5vw;
 }
 main form {
-    font-size: 1.3rem;
+    font-size: 2vw;
+}
+form input {
+    font-size: 2vw;
 }
 footer {
     width: 100%;
