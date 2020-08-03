@@ -5,17 +5,37 @@
 }
 header {
     width: 100%;
+    padding: 1vw 5vw;
+    min-height: 40vw;
+    background-image: url(image1.jpg);
+    background-position: top;
+    background-size: cover;
+    background-attachment: fixed;
+}
+header h3 {
+    text-transform: capitalize;
+    font-size: 3vw;
+    color: rgb(83, 82, 82);
+    font-family: 'Barlow Condensed', sans-serif;
+}
+.header-flex {
+    width: 100%;
     display: flex;
     justify-content: space-between;
-    padding: 1vw 5vw;
-    background-color: rgb(18, 43, 43);
-    color: white;
+}
+.inspiration {
+    text-align: center;
+    margin-top: 20vw;
+}
+.inspiration strong {
+    color: #273c75;
     font-size: 3vw;
-    text-transform: capitalize;
+    font-weight: bolder;
+    font-family: 'Dancing Script', cursive;
 }
 header:hover, section:hover, main:hover {
     transition: .5s;
-    box-shadow: .2rem .2rem .4rem .1rem gray;
+    box-shadow: .2rem .2rem 1rem .1rem gray;
 }
 section {
     width: 90%;
@@ -23,8 +43,7 @@ section {
     justify-content: space-between;
     margin: 2vw auto;
     padding: 2vw;
-    background: lightblue;
-    border-radius: 2vw 0;
+    border-radius: 0 20vw 20vw 55vw;
 }
 .left {
     width: 70%;
@@ -32,6 +51,7 @@ section {
 .left h2 {
     text-transform: uppercase;
     font-size: 5vw;
+    font-family: 'Dancing Script', cursive;
     margin: 10vw;
     color: green;
     transition: .5s;
@@ -45,7 +65,7 @@ section {
 .right img {
     width: 100%;
     height: auto;
-    border-radius: 1vw;
+    border-radius: 15vw;
     transition: .5s;
 }
 .right img:hover {
@@ -56,30 +76,36 @@ main {
     height: fit-content;
     margin: 2vw auto;
     padding: 2vw;
-    background: lightblue;
     border-radius: 2vw 0;
 }
 main h2 {
     font-size: 3vw;
-    color: white;
+    color: gray;
     text-transform: capitalize;
     margin: 1vw 0;
+    font-family: 'Barlow Condensed', sans-serif;
 }
 main h3 {
     font-size: 2.5vw;
     color: green;
     text-transform: capitalize;
     margin: .5vw 0;
+    font-family: 'Barlow Condensed', sans-serif;
 }
 p {
     font-size: 2vw;
+    font-family: 'Satisfy', cursive;
+
 }
 strong, em {
     font-size: 2vw;
+    font-family: 'Pacifico', cursive;
+
 }
 main li {
     list-style-position: inside;
     font-size: 2vw;
+    font-family: 'Pacifico', cursive;
 }
 main .extra-info {
     margin: 1vw 0;
@@ -113,19 +139,22 @@ main .extra-info {
 main table {
     width: 80%;
     margin: 1vw 0;
+    font-family: 'Barlow Condensed', sans-serif;
 }
 main tr {
     width: 30%;
     font-size: 2vw;
 }
 main th {
+    color: white;
     text-align: center;
-    background-color: wheat;
+    background-color: rgb(168, 167, 164);
     padding: .5vw;
 }
 main td {
+    color: white;
     text-align: center;
-    background-color: white;
+    background-color: rgb(114, 124, 124);
     padding: .5vw;
 }
 main form {
@@ -137,11 +166,12 @@ form input {
 footer {
     width: 100%;
     height: 5vw;
-    background-color: gray;
+    background-color: rgba(128, 128, 128, 0.541);
     text-align: center;
 }
 footer p {
     position: relative;
     top: 2vw;
     color: white;
+    text-transform: capitalize;
 }
