@@ -38,7 +38,6 @@ section {
 .right {
     width: 30%;
     height: 20vh;
-    float: right;
     height: fit-content;
 }
 .right img {
