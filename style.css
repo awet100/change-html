@@ -13,6 +13,10 @@ header {
     font-size: 3vw;
     text-transform: capitalize;
 }
+header:hover, section:hover, main:hover {
+    transition: .5s;
+    box-shadow: .2rem .2rem .4rem .1rem gray;
+}
 section {
     width: 90%;
     display: flex;
@@ -30,6 +34,10 @@ section {
     font-size: 5vw;
     margin: 10vw;
     color: green;
+    transition: .5s;
+}
+.left h2:hover {
+    font-size: 4.8vw;   
 }
 .right {
     width: 30%;
@@ -38,6 +46,10 @@ section {
     width: 100%;
     height: auto;
     border-radius: 1vw;
+    transition: .5s;
+}
+.right img:hover {
+    width: 98%;
 }
 main {
     width: 90%;
@@ -48,13 +60,13 @@ main {
     border-radius: 2vw 0;
 }
 main h2 {
-    font-size: 2vw;
+    font-size: 3vw;
     color: white;
-    text-transform: uppercase;
+    text-transform: capitalize;
     margin: 1vw 0;
 }
 main h3 {
-    font-size: 2vw;
+    font-size: 2.5vw;
     color: green;
     text-transform: capitalize;
     margin: .5vw 0;
@@ -85,6 +97,11 @@ main .extra-info {
     background-color: teal;
     padding: .2vw;
     border-radius: .5vw;
+    transition: .5s;
+}
+.links li:hover a {
+    background-color: rgba(2, 83, 83, 0.521);
+    color: wheat;
 }
 .links a {
     text-decoration: none;
@@ -119,12 +136,12 @@ form input {
 }
 footer {
     width: 100%;
-    height: 10vh;
+    height: 5vw;
     background-color: gray;
     text-align: center;
 }
 footer p {
     position: relative;
-    top: 5vh;
+    top: 2vw;
     color: white;
 }
