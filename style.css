@@ -16,8 +16,8 @@ header {
 section {
     width: 90%;
     display: flex;
+    height: fit-content;
     justify-content: space-between;
-    height: max-content;
     margin: 2rem auto;
     padding: 2rem;
     background: lightblue;
