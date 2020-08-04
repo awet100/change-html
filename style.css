@@ -8,7 +8,7 @@ header {
     padding: 1vw 5vw;
     min-height: 40vw;
     background-image: url(image1.jpg);
-    background-position: top;
+    background-position: center;
     background-size: cover;
     background-attachment: fixed;
 }
@@ -28,7 +28,7 @@ header h3 {
     margin-top: 20vw;
 }
 .inspiration strong {
-    color: #273c75;
+    color: rgb(54, 54, 54);
     font-size: 3vw;
     font-weight: bolder;
     font-family: 'Dancing Script', cursive;
@@ -53,8 +53,14 @@ section {
     font-size: 5vw;
     font-family: 'Dancing Script', cursive;
     margin: 10vw;
-    color: green;
+    color: teal;
     transition: .5s;
+}
+.left span {
+    margin-left: 15vw;
+    font-size: 4vw;
+    font-weight: lighter;
+    font-family: 'Barlow Condensed', sans-serif;
 }
 .left h2:hover {
     font-size: 4.8vw;   
@@ -80,14 +86,14 @@ main {
 }
 main h2 {
     font-size: 3vw;
-    color: gray;
+    color: teal;
     text-transform: capitalize;
     margin: 1vw 0;
     font-family: 'Barlow Condensed', sans-serif;
 }
 main h3 {
     font-size: 2.5vw;
-    color: green;
+    color: teal;
     text-transform: capitalize;
     margin: .5vw 0;
     font-family: 'Barlow Condensed', sans-serif;
@@ -165,6 +171,7 @@ main td {
 }
 main form {
     font-size: 2vw;
+    color: tomato;
     font-family: 'Barlow Condensed', sans-serif;
 }
 form input {
@@ -179,6 +186,8 @@ footer {
 footer p {
     position: relative;
     top: 2vw;
+    font-size: 1.8vw;
     color: white;
     text-transform: capitalize;
+    font-family: 'Barlow Condensed', sans-serif;
 }
